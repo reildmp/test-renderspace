@@ -1,0 +1,16 @@
+@import "./font.scss";
+
+.promote {
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+
+  &--content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    overflow-x: hidden;
+    gap: 16px;
+  }
+}

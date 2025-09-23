@@ -1,0 +1,78 @@
+@import "./font.scss";
+
+.footer {
+  margin: 200px auto 90px auto;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+
+  @media (max-width: 425px) {
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: start;
+  }
+
+  &--content {
+    width: 100%;
+
+    @media (max-width: 425px) {
+      width: 40%;
+
+      &:first-child {
+        width: 100%;
+      }
+    }
+
+    &-title {
+      font-family: "Poppins", sans-serif;
+      font-size: 44px;
+      font-weight: 500;
+      color: #181e4b;
+    }
+
+    &-desc {
+      font-family: "Poppins", sans-serif;
+      font-size: 13px;
+      font-weight: 500;
+      color: #5e6282;
+    }
+
+    &-header {
+      font-family: "Poppins", sans-serif;
+      font-size: 20px;
+      font-weight: 700;
+      color: #080809;
+
+      @media (max-width: 425px) {
+        font-size: 16px;
+      }
+    }
+
+    &-menu {
+      margin-top: 32px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+
+      @media (max-width: 425px) {
+        margin-top: 16px;
+      }
+
+      a {
+        text-decoration: none;
+        font-family: "Poppins", sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        color: #5e6282;
+
+        &:hover {
+          opacity: 0.8;
+        }
+
+        @media (max-width: 425px) {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}

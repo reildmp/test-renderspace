@@ -1,0 +1,122 @@
+@import "./font.scss";
+
+.hero {
+  height: 100vh;
+  padding: 12% 0;
+
+  @media (max-width: 425px) {
+    padding: 80px 12px;
+  }
+
+  &--decore {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+  }
+
+  &--container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    &-title {
+      font-family: "Poppins", sans-serif;
+      color: #df6951;
+      font-size: 20px;
+      text-transform: uppercase;
+      font-weight: 700;
+
+      @media (max-width: 425px) {
+        font-size: 16px;
+      }
+    }
+
+    &-sub-title {
+      font-family: "Volkhov", sans-serif;
+      color: #181e4b;
+      font-size: 84px;
+      font-weight: 700;
+      line-height: 89px;
+
+      @media (max-width: 425px) {
+        font-size: 32px;
+        line-height: 60px;
+      }
+
+      span {
+        position: relative;
+
+        &::after {
+          content: url("../images/underline.png");
+          position: absolute;
+          bottom: 0;
+          left: -25px;
+
+          @media (max-width: 425px) {
+            content: url("../images/underline-mobile.png");
+            bottom: -25px;
+            left: 0;
+          }
+        }
+      }
+    }
+
+    &-desc {
+      width: 475px;
+      font-family: "Poppins", sans-serif;
+      color: #5e6282;
+      font-size: 16px;
+      font-weight: 500;
+      text-align: justify;
+
+      @media (max-width: 425px) {
+        width: 75%;
+      }
+    }
+
+    &-action {
+      display: flex;
+      align-items: flex-start;
+      gap: 44px;
+
+      @media (max-width: 425px) {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .btn {
+        font-family: "OpenSans", sans-serif;
+        color: white !important;
+        padding: 20px 24px;
+        font-size: 18px;
+
+        @media (max-width: 425px) {
+          width: 100%;
+        }
+      }
+
+      a {
+        display: flex;
+        align-items: center;
+        font-family: "Poppins", sans-serif;
+        font-size: 17px;
+
+        span {
+          margin-bottom: 24px;
+          color: #686d77;
+        }
+      }
+    }
+
+    &-traveller {
+      position: absolute;
+      right: 100px;
+      top: 110px;
+
+      @media (max-width: 425px) {
+        display: none;
+      }
+    }
+  }
+}

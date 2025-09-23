@@ -1,0 +1,50 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../../node_modules/bootstrap-icons/font/bootstrap-icons.scss";
+@import "./sections/font.scss";
+@import "./sections/hero.scss";
+@import "./sections/top.scss";
+@import "./sections/book.scss";
+@import "./sections/promote.scss";
+@import "./sections/subscribe.scss";
+@import "./sections/footer.scss";
+
+body {
+  overflow-x: hidden;
+}
+
+.menu {
+  position: absolute;
+  top: 32px;
+  width: 100vw;
+
+  @media (max-width: 425px) {
+    top: 0;
+    background-color: white;
+    z-index: 1;
+  }
+
+  .navbar-nav {
+    gap: 55px;
+
+    @media (max-width: 425px) {
+      gap: 12px;
+    }
+  }
+
+  .nav-link {
+    font-family: "OpenSans", sans-serif;
+    color: #212832;
+    font-weight: 500;
+    font-size: 17px;
+
+    a.btn {
+      color: #212832 !important;
+      border: #212832 !important;
+    }
+  }
+}
+
+.copyright {
+  margin-bottom: 100px;
+  text-align: center;
+}
