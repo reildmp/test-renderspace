@@ -20270,7 +20270,7 @@ textarea.form-control-lg {
   height: 100vh;
   padding: 12% 0;
 }
-@media (max-width: 430px) {
+@media (max-width: 440px) {
   .hero {
     padding: 80px 12px;
   }
@@ -20293,7 +20293,7 @@ textarea.form-control-lg {
   text-transform: uppercase;
   font-weight: 700;
 }
-@media (max-width: 430px) {
+@media (max-width: 440px) {
   .hero--container-title {
     font-size: 16px;
   }
@@ -20305,7 +20305,7 @@ textarea.form-control-lg {
   font-weight: 700;
   line-height: 89px;
 }
-@media (max-width: 430px) {
+@media (max-width: 440px) {
   .hero--container-sub-title {
     font-size: 32px;
     line-height: 60px;
@@ -20320,7 +20320,7 @@ textarea.form-control-lg {
   bottom: 0;
   left: -25px;
 }
-@media (max-width: 430px) {
+@media (max-width: 440px) {
   .hero--container-sub-title span::after {
     content: url("../images/underline-mobile.png");
     bottom: -25px;
@@ -20335,7 +20335,7 @@ textarea.form-control-lg {
   font-weight: 500;
   text-align: justify;
 }
-@media (max-width: 430px) {
+@media (max-width: 440px) {
   .hero--container-desc {
     width: 75%;
   }
@@ -20345,7 +20345,7 @@ textarea.form-control-lg {
   align-items: flex-start;
   gap: 44px;
 }
-@media (max-width: 430px) {
+@media (max-width: 440px) {
   .hero--container-action {
     flex-direction: column;
     align-items: center;
@@ -20357,7 +20357,7 @@ textarea.form-control-lg {
   padding: 20px 24px;
   font-size: 18px;
 }
-@media (max-width: 430px) {
+@media (max-width: 440px) {
   .hero--container-action .btn {
     width: 100%;
   }
@@ -20377,7 +20377,7 @@ textarea.form-control-lg {
   right: 100px;
   top: 110px;
 }
-@media (max-width: 430px) {
+@media (max-width: 440px) {
   .hero--container-traveller {
     display: none;
   }
@@ -20426,7 +20426,7 @@ textarea.form-control-lg {
   flex-direction: column;
   gap: 8px;
 }
-@media (max-width: 430px) {
+@media (max-width: 440px) {
   .top {
     height: 100%;
     padding: 80px 12px;
@@ -20438,7 +20438,7 @@ textarea.form-control-lg {
   font-weight: 600;
   color: #5e6282;
 }
-@media (max-width: 430px) {
+@media (max-width: 440px) {
   .top--subheading {
     font-size: 16px;
   }
@@ -20449,7 +20449,7 @@ textarea.form-control-lg {
   font-weight: 700;
   color: #14183e;
 }
-@media (max-width: 430px) {
+@media (max-width: 440px) {
   .top--heading {
     font-size: 36px;
   }
@@ -20462,7 +20462,7 @@ textarea.form-control-lg {
   gap: 46px;
   width: 100%;
 }
-@media (max-width: 430px) {
+@media (max-width: 440px) {
   .top--card {
     gap: 24px;
     flex-wrap: wrap;
@@ -20473,7 +20473,7 @@ textarea.form-control-lg {
   width: 25%;
   border-radius: 24px;
 }
-@media (max-width: 430px) {
+@media (max-width: 440px) {
   .top--card-detail {
     width: 50%;
   }
@@ -20505,7 +20505,7 @@ textarea.form-control-lg {
   flex-direction: column;
   gap: 20px;
 }
-@media (max-width: 430px) {
+@media (max-width: 440px) {
   .top--card-detail-desc {
     height: 100px;
     font-size: 12px;
@@ -20573,7 +20573,7 @@ textarea.form-control-lg {
   justify-content: space-between;
   align-items: center;
 }
-@media (max-width: 430px) {
+@media (max-width: 440px) {
   .book {
     height: 100%;
     padding: 80px 12px;
@@ -20593,7 +20593,7 @@ textarea.form-control-lg {
   font-weight: 600;
   color: #5e6282;
 }
-@media (max-width: 430px) {
+@media (max-width: 440px) {
   .book--detail-subheading {
     font-size: 16px;
   }
@@ -20604,7 +20604,7 @@ textarea.form-control-lg {
   font-weight: 700;
   color: #14183e;
 }
-@media (max-width: 430px) {
+@media (max-width: 440px) {
   .book--detail-heading {
     font-size: 32px;
   }
@@ -20635,7 +20635,7 @@ textarea.form-control-lg {
   font-weight: 700;
   color: #5e6282;
 }
-@media (max-width: 430px) {
+@media (max-width: 440px) {
   .book--detail-values-content-desc-title {
     font-size: 14px;
   }
@@ -20646,7 +20646,7 @@ textarea.form-control-lg {
   font-weight: 400;
   color: #5e6282;
 }
-@media (max-width: 430px) {
+@media (max-width: 440px) {
   .book--detail-values-content-desc-sub {
     font-size: 14px;
   }
@@ -20660,7 +20660,7 @@ textarea.form-control-lg {
   bottom: -100px;
   z-index: -1;
 }
-@media (max-width: 430px) {
+@media (max-width: 440px) {
   .book--trip-decore {
     width: 100vw;
     height: auto;
@@ -20692,7 +20692,7 @@ textarea.form-control-lg {
   font-weight: 500;
   color: #080809;
 }
-@media (max-width: 430px) {
+@media (max-width: 440px) {
   .book--trip-card-desc-title {
     font-size: 16px;
   }
@@ -20703,7 +20703,7 @@ textarea.form-control-lg {
   font-weight: 500;
   color: #84829a;
 }
-@media (max-width: 430px) {
+@media (max-width: 440px) {
   .book--trip-card-desc-date {
     font-size: 14px;
   }
@@ -20714,7 +20714,7 @@ textarea.form-control-lg {
   align-items: center;
   justify-content: start;
 }
-@media (max-width: 430px) {
+@media (max-width: 440px) {
   .book--trip-card-desc-buttons {
     font-size: 14px;
   }
@@ -20731,7 +20731,7 @@ textarea.form-control-lg {
   font-weight: 500;
   color: #84829a;
 }
-@media (max-width: 430px) {
+@media (max-width: 440px) {
   .book--trip-card-desc-going {
     font-size: 14px;
   }
@@ -20758,7 +20758,7 @@ textarea.form-control-lg {
   box-shadow: 0px 64.81px 46.85px 0px rgba(0, 0, 0, 0.0156862745);
   box-shadow: 0px 100px 80px 0px rgba(0, 0, 0, 0.0196078431);
 }
-@media (max-width: 430px) {
+@media (max-width: 440px) {
   .book--trip-status {
     right: 0;
     bottom: 65px;
@@ -20778,7 +20778,7 @@ textarea.form-control-lg {
   color: #84829a;
   letter-spacing: -3.5%;
 }
-@media (max-width: 430px) {
+@media (max-width: 440px) {
   .book--trip-status-detail-title {
     font-size: 12px;
   }
@@ -20790,7 +20790,7 @@ textarea.form-control-lg {
   color: #080809;
   letter-spacing: -1.5%;
 }
-@media (max-width: 430px) {
+@media (max-width: 440px) {
   .book--trip-status-detail-desc {
     font-size: 16px;
   }
@@ -20803,7 +20803,7 @@ textarea.form-control-lg {
   letter-spacing: -5.5%;
   margin-top: 16px;
 }
-@media (max-width: 430px) {
+@media (max-width: 440px) {
   .book--trip-status-detail-percentage {
     font-size: 12px;
   }
@@ -20916,7 +20916,7 @@ textarea.form-control-lg {
   align-items: start;
   justify-content: center;
 }
-@media (max-width: 430px) {
+@media (max-width: 440px) {
   .subscribe {
     padding: 64px 12px;
   }
@@ -20930,7 +20930,7 @@ textarea.form-control-lg {
   text-align: center;
   margin: auto;
 }
-@media (max-width: 430px) {
+@media (max-width: 440px) {
   .subscribe-title {
     font-size: 14px;
     line-height: 36px;
@@ -20945,12 +20945,12 @@ textarea.form-control-lg {
   margin: 52px auto 0 auto;
   text-align: center;
 }
-@media (max-width: 430px) {
+@media (max-width: 440px) {
   .subscribe-form {
     margin: 24px auto 0 auto;
   }
 }
-@media (max-width: 430px) {
+@media (max-width: 440px) {
   .subscribe-form {
     width: 80%;
   }
@@ -20961,7 +20961,7 @@ textarea.form-control-lg {
   justify-content: center;
   gap: 16px;
 }
-@media (max-width: 430px) {
+@media (max-width: 440px) {
   .subscribe-form-detail {
     flex-direction: column;
   }
@@ -20975,7 +20975,7 @@ textarea.form-control-lg {
   width: 100%;
   height: 22px;
 }
-@media (max-width: 430px) {
+@media (max-width: 440px) {
   .subscribe-form-detail-error {
     font-size: 12px;
     height: 18px;
@@ -21042,7 +21042,7 @@ textarea.form-control-lg {
   justify-content: center;
   align-items: start;
 }
-@media (max-width: 430px) {
+@media (max-width: 440px) {
   .footer {
     flex-wrap: wrap;
     gap: 32px;
@@ -21052,7 +21052,7 @@ textarea.form-control-lg {
 .footer--content {
   width: 100%;
 }
-@media (max-width: 430px) {
+@media (max-width: 440px) {
   .footer--content {
     width: 40%;
   }
@@ -21078,7 +21078,7 @@ textarea.form-control-lg {
   font-weight: 700;
   color: #080809;
 }
-@media (max-width: 430px) {
+@media (max-width: 440px) {
   .footer--content-header {
     font-size: 16px;
   }
@@ -21089,7 +21089,7 @@ textarea.form-control-lg {
   flex-direction: column;
   gap: 12px;
 }
-@media (max-width: 430px) {
+@media (max-width: 440px) {
   .footer--content-menu {
     margin-top: 16px;
   }
@@ -21104,7 +21104,7 @@ textarea.form-control-lg {
 .footer--content-menu a:hover {
   opacity: 0.8;
 }
-@media (max-width: 430px) {
+@media (max-width: 440px) {
   .footer--content-menu a {
     font-size: 14px;
   }
